@@ -1,0 +1,5 @@
+Format,Total_Rows,Rows_In_Duplicate_Groups,Rows_Removed_By_Dedup,Duplicate_Benign,Duplicate_Malicious,Duplicate_Pct,Conflict_Groups,Near_Duplicate_Rate_Eps
+Word,20000,4558,3395,4558,0,0.2279,0,0.992
+Excel,20000,6591,6028,0,6591,0.32955,0,0.976
+PDF,19296,5703,3943,28,5675,0.29555348258706465,0,0.91
+HTML,19997,5683,4587,434,5249,0.28419262889433416,6,0.554

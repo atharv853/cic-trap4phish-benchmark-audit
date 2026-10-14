@@ -1,0 +1,51 @@
+Format,Feature,Stump_Accuracy,Reason
+Word,path__w_p,1.0,Contains NaN in raw data
+Word,path_w_r,1.0,Contains NaN in raw data
+Word,path__w_r,1.0,Contains NaN in raw data
+Word,path_a_hlink,1.0,Contains NaN in raw data
+Word,path_w_p,1.0,Contains NaN in raw data
+Word,path_a_accent3,1.0,Contains NaN in raw data
+Word,struct_ang,1.0,Contains NaN in raw data
+Word,path__a_effectLst,1.0,Contains NaN in raw data
+Word,path_a_themeElements,1.0,Contains NaN in raw data
+Word,struct_dist,1.0,Contains NaN in raw data
+Word,path_a_alpha,1.0,Contains NaN in raw data
+Word,struct_Extension,1.0,Contains NaN in raw data
+Word,path_a_dk1,1.0,Contains NaN in raw data
+Word,path_a_ln,1.0,Contains NaN in raw data
+Word,path__a_accent6,1.0,Contains NaN in raw data
+Word,struct_w,1.0,Contains NaN in raw data
+Word,struct_name,1.0,Contains NaN in raw data
+Word,path_a_lt2,1.0,Contains NaN in raw data
+Word,path__a_outerShdw,1.0,Contains NaN in raw data
+Word,path_a_accent4,1.0,Contains NaN in raw data
+Word,path__a_dk1,1.0,Contains NaN in raw data
+Word,path_a_accent1,1.0,Contains NaN in raw data
+Word,path_a_sysClr,1.0,Contains NaN in raw data
+Word,path_a_lt1,1.0,Contains NaN in raw data
+Word,path__a_accent4,1.0,Contains NaN in raw data
+Word,struct__http___schemas_openxmlformats_org_wordprocessingml_2006_main_sz,1.0,Contains NaN in raw data
+Word,path_a_solidFill,1.0,Contains NaN in raw data
+Word,struct__http___schemas_openxmlformats_org_wordprocessingml_2006_main_themeFill,1.0,Contains NaN in raw data
+Word,struct__http___schemas_openxmlformats_org_wordprocessingml_2006_main_csb1,1.0,Contains NaN in raw data
+Word,struct__http___schemas_openxmlformats_org_wordprocessingml_2006_main_styleId,1.0,Contains NaN in raw data
+Word,ole_object_count,1.0,Train stump accuracy >= 0.95 (1.0000)
+Word,ole_object_type_count,1.0,Train stump accuracy >= 0.95 (1.0000)
+Word,macro_present,0.9999247271358677,Train stump accuracy >= 0.95 (0.9999)
+Word,vba_keywords_count,0.9999246987951806,Train stump accuracy >= 0.95 (0.9999)
+Word,dde_present,0.9996989085434702,Train stump accuracy >= 0.95 (0.9997)
+Word,entropy,0.9992471863366148,Train stump accuracy >= 0.95 (0.9992)
+Word,struct_ContentType,0.9987203046283742,Train stump accuracy >= 0.95 (0.9987)
+Word,struct_PartName,0.9974405525753749,Train stump accuracy >= 0.95 (0.9974)
+Word,file_size,0.9948812185134969,Train stump accuracy >= 0.95 (0.9949)
+Word,struct_pos,0.9793737898526738,Train stump accuracy >= 0.95 (0.9794)
+Word,struct_val,0.9716951358312438,Train stump accuracy >= 0.95 (0.9717)
+Excel,entropy_of_text,0.9827329883580859,Train stump accuracy >= 0.95 (0.9827)
+Excel,macro_chr_count,0.9787954680977936,Train stump accuracy >= 0.95 (0.9788)
+Excel,macro_token_count,0.970564406718613,Train stump accuracy >= 0.95 (0.9706)
+Excel,macro_vocab_size,0.970564406718613,Train stump accuracy >= 0.95 (0.9706)
+Excel,macro_arithmetic_operator_count,0.9644804760818495,Train stump accuracy >= 0.95 (0.9645)
+Excel,string_cell_count,0.9634069307208062,Train stump accuracy >= 0.95 (0.9634)
+Excel,numeric_cell_count,0.9583071800474642,Train stump accuracy >= 0.95 (0.9583)
+Excel,non_empty_cells,0.9539225926770799,Train stump accuracy >= 0.95 (0.9539)
+Excel,macro_line_count,0.953385799986393,Train stump accuracy >= 0.95 (0.9534)

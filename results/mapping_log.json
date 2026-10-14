@@ -1,0 +1,50 @@
+{
+    "Word": {
+        "1_content_entropy": "entropy",
+        "2_active_content_flag": "macro_present > 0",
+        "3_external_reference_count": "EXCLUDED (Word dataset lacks link count column)",
+        "4_log_file_size": "log1p(file_size)",
+        "5_structural_complexity_ratio": "ole_object_count / file_size",
+        "6_obfuscation_indicator": "vba_keywords_count",
+        "7_script_text_volume": "struct_typeface",
+        "8_encoded_content_counts": "ole_object_type_count",
+        "9_embedded_object_count": "ole_object_count",
+        "10_stream_script_size": "struct_script"
+    },
+    "Excel": {
+        "1_content_entropy": "entropy_of_text",
+        "2_active_content_flag": "macro_token_count > 0",
+        "3_external_reference_count": "remote_template_present + hyperlink_count",
+        "4_log_file_size": "log1p(file_size)",
+        "5_structural_complexity_ratio": "total_cells / file_size",
+        "6_obfuscation_indicator": "macro_vocab_size + hex_pattern_count",
+        "7_script_text_volume": "macro_chr_count",
+        "8_encoded_content_counts": "base64_pattern_count",
+        "9_embedded_object_count": "sheet_count",
+        "10_stream_script_size": "macro_count"
+    },
+    "PDF": {
+        "1_content_entropy": "entropy_of_streams",
+        "2_active_content_flag": "(js_count + launch_count + openaction_count) > 0",
+        "3_external_reference_count": "uri_count + action_count",
+        "4_log_file_size": "log1p(file_size)",
+        "5_structural_complexity_ratio": "object_count / page_count",
+        "6_obfuscation_indicator": "name_obfuscations + total_filters",
+        "7_script_text_volume": "text_length",
+        "8_encoded_content_counts": "total_filters",
+        "9_embedded_object_count": "font_object_count + image_count",
+        "10_stream_script_size": "stream_count"
+    },
+    "HTML": {
+        "1_content_entropy": "entropy",
+        "2_active_content_flag": "(embedded_js_count + script_count) > 0",
+        "3_external_reference_count": "external_links_count + external_link_count",
+        "4_log_file_size": "log1p(file_size)",
+        "5_structural_complexity_ratio": "tag_count / file_size",
+        "6_obfuscation_indicator": "base64_string_count + hidden_iframe_count",
+        "7_script_text_volume": "total_script_characters",
+        "8_encoded_content_counts": "escaped_char_count",
+        "9_embedded_object_count": "iframe_count + object_tag_count",
+        "10_stream_script_size": "script_entropy * script_count"
+    }
+}

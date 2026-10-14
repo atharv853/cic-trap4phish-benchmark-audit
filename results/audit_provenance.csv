@@ -1,0 +1,5 @@
+Format,Folder_Leakage_Accuracy,Extension_Leakage_Accuracy
+Word,1.0,1.0
+Excel,1.0,0.63115
+PDF,1.0,0.5181902985074627
+HTML,1.0,0.5000250037505626

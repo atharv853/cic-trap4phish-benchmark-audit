@@ -1,0 +1,11 @@
+/home/atharv/Documents/IIIT Dharwad/code/stage6_figures.py:291: SyntaxWarning: invalid escape sequence '\D'
+
+/home/atharv/Documents/IIIT Dharwad/code/stage6_figures.py:287: SyntaxWarning: invalid escape sequence '\D'
+  """
+/home/atharv/Documents/IIIT Dharwad/code/stage6_figures.py:287: SyntaxWarning: invalid escape sequence '\D'
+  """
+/home/atharv/Documents/IIIT Dharwad/code/stage6_figures.py:287: SyntaxWarning: invalid escape sequence '\D'
+  """
+=== EXECUTING STAGE 6: FIGURES & TABLES ===
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
+STAGE 6 EXECUTED SUCCESSFULLY.

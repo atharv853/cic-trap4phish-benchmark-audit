@@ -1,0 +1,9 @@
+{
+    "n_estimators": 80,
+    "max_depth": 6,
+    "learning_rate": 0.03647316284911211,
+    "num_leaves": 19,
+    "random_state": 42,
+    "verbose": -1,
+    "n_jobs": -1
+}

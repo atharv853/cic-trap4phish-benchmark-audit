@@ -1,0 +1,114 @@
+# ==============================================================================
+# Git Ignore Configuration: CIC-Trap4Phish Benchmark Audit
+# ==============================================================================
+
+# Python Bytecode and Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage Caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+
+# Jupyter Notebooks & Editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large Archives & Compression Files
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Raw Unredistributed Third-Party Benchmark Datasets
+# (See data/README.md for download and verification instructions)
+Word_All_features.csv
+Excel_All_Features.csv
+PDF_All_features.csv
+HTML_All_Features.csv
+data/Word_All_features.csv
+data/Excel_All_Features.csv
+data/PDF_All_features.csv
+data/HTML_All_Features.csv
+
+# Keep sample evaluation data tracked
+!data/sample/*.csv
+
+# Trained Model Binaries / Checkpoints
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Temporary Scratch Files & Editor Backups
+scratch/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+
+# Ensure Crucial Research Artifacts and Splits are Tracked
+!results/
+!results/*.csv
+!results/*.json
+!results/*.md
+!results/params/*.json
+!results/splits/*.npz
+!figures/*.png
+!figures/*.pdf
+!latex_tables/*.tex
+!tables/*.tex
+!logs/*.log

@@ -1,0 +1,12 @@
+\begin{tabular}{llll}
+\toprule
+Hypothesis & Description & Decision & Evidence \\
+\midrule
+H1 & Dedup lowers test metrics in every format & NOT SUPPORTED & Word: L0=1.0000, L1=1.0000; Excel: L0=1.0000, L1=0.9993; PDF: L0=0.9988, L1=0.9974; HTML: L0=0.9187, L1=0.9276 \\
+H2 & Word and Excel contain >=1 feature with stump accuracy >= 0.95 & SUPPORTED & Word shortcuts >=0.95: True, Excel shortcuts >=0.95: True \\
+H3 & L2 honest F1 is lower than L1 for Word and Excel & SUPPORTED & Word L1=1.0000 vs L2=0.9366; Excel L1=0.9993 vs L2=0.9989 \\
+H4 & Universal pooled F1 within 0.01 for Word/Excel/PDF but not HTML & INCONCLUSIVE & Word gap: 0.6319, Excel gap: 0.0000, PDF gap upper CI 0.0131 > 0.01 (INCONCLUSIVE), HTML gap: 0.0731 \\
+H5 & HTML gap shrinks as k grows & SUPPORTED & Linear regression slope of HTML delta F1 vs k: -0.004995 \\
+H6 & Arm 4 own-format columns carry >= 50% of feature importance & NOT SUPPORTED & Own format SHAP shares: Word=0.6704, Excel=0.6207, PDF=0.4864, HTML=0.5185 \\
+\bottomrule
+\end{tabular}

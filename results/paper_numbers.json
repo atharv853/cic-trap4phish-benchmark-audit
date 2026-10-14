@@ -1,0 +1,150 @@
+{
+    "Word_Rows_In_Duplicate_Groups": {
+        "value": 4558,
+        "source": "audit_duplicates.csv"
+    },
+    "Excel_Rows_In_Duplicate_Groups": {
+        "value": 6591,
+        "source": "audit_duplicates.csv"
+    },
+    "PDF_Rows_In_Duplicate_Groups": {
+        "value": 5703,
+        "source": "audit_duplicates.csv"
+    },
+    "HTML_Rows_In_Duplicate_Groups": {
+        "value": 5683,
+        "source": "audit_duplicates.csv"
+    },
+    "Word_Rows_Removed_By_Dedup": {
+        "value": 3395,
+        "source": "audit_duplicates.csv"
+    },
+    "Excel_Rows_Removed_By_Dedup": {
+        "value": 6028,
+        "source": "audit_duplicates.csv"
+    },
+    "PDF_Rows_Removed_By_Dedup": {
+        "value": 3943,
+        "source": "audit_duplicates.csv"
+    },
+    "HTML_Rows_Removed_By_Dedup": {
+        "value": 4587,
+        "source": "audit_duplicates.csv"
+    },
+    "HTML_Conflicting_Groups": {
+        "value": 6,
+        "source": "audit_duplicates.csv"
+    },
+    "Word_Twin_Leak_Rate": {
+        "value": 0.2085,
+        "source": "audit_twin_leakage.csv"
+    },
+    "Excel_Twin_Leak_Rate": {
+        "value": 0.3285,
+        "source": "audit_twin_leakage.csv"
+    },
+    "PDF_Twin_Leak_Rate": {
+        "value": 0.2782383419689119,
+        "source": "audit_twin_leakage.csv"
+    },
+    "HTML_Twin_Leak_Rate": {
+        "value": 0.27075,
+        "source": "audit_twin_leakage.csv"
+    },
+    "Word_L0_F1": {
+        "value": 1.0,
+        "source": "honest_leaderboard.csv"
+    },
+    "Word_L1_F1": {
+        "value": 1.0,
+        "source": "honest_leaderboard.csv"
+    },
+    "Word_L2_F1": {
+        "value": 0.936604014017203,
+        "source": "honest_leaderboard.csv"
+    },
+    "Excel_L0_F1": {
+        "value": 1.0,
+        "source": "honest_leaderboard.csv"
+    },
+    "Excel_L1_F1": {
+        "value": 0.9992652461425422,
+        "source": "honest_leaderboard.csv"
+    },
+    "Excel_L2_F1": {
+        "value": 0.9988958410011042,
+        "source": "honest_leaderboard.csv"
+    },
+    "PDF_L0_F1": {
+        "value": 0.9987503124218944,
+        "source": "honest_leaderboard.csv"
+    },
+    "PDF_L1_F1": {
+        "value": 0.99744081893794,
+        "source": "honest_leaderboard.csv"
+    },
+    "PDF_L2_F1": {
+        "value": 0.99744081893794,
+        "source": "honest_leaderboard.csv"
+    },
+    "HTML_L0_F1": {
+        "value": 0.9186791522917692,
+        "source": "honest_leaderboard.csv"
+    },
+    "HTML_L1_F1": {
+        "value": 0.9276209023044466,
+        "source": "honest_leaderboard.csv"
+    },
+    "HTML_L2_F1": {
+        "value": 0.9276209023044466,
+        "source": "honest_leaderboard.csv"
+    },
+    "Excel_Control_F1": {
+        "value": 1.0,
+        "source": "control_experiments.csv"
+    },
+    "Word_Clean_Feature_L2_F1": {
+        "value": 0.936604014017203,
+        "source": "control_experiments.csv"
+    },
+    "HTML_Transfer_Gap_k4": {
+        "value": 0.069649887811693,
+        "source": "sensitivity_k.csv"
+    },
+    "HTML_Transfer_Gap_k6": {
+        "value": 0.0552804767725316,
+        "source": "sensitivity_k.csv"
+    },
+    "HTML_Transfer_Gap_k8": {
+        "value": 0.0490081855414408,
+        "source": "sensitivity_k.csv"
+    },
+    "HTML_Transfer_Gap_k10": {
+        "value": 0.0384439742422301,
+        "source": "sensitivity_k.csv"
+    },
+    "Hypothesis_H1_Decision": {
+        "value": "NOT SUPPORTED",
+        "source": "hypotheses.csv"
+    },
+    "Hypothesis_H2_Decision": {
+        "value": "SUPPORTED",
+        "source": "hypotheses.csv"
+    },
+    "Hypothesis_H3_Decision": {
+        "value": "SUPPORTED",
+        "source": "hypotheses.csv"
+    },
+    "Hypothesis_H4_Decision": {
+        "value": "INCONCLUSIVE",
+        "source": "hypotheses.csv"
+    },
+    "Hypothesis_H5_Decision": {
+        "value": "SUPPORTED",
+        "source": "hypotheses.csv"
+    },
+    "Hypothesis_H6_Decision": {
+        "value": "NOT SUPPORTED",
+        "source": "hypotheses.csv"
+    }
+}

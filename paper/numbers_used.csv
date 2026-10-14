@@ -1,0 +1,206 @@
+number_in_paper,source_file | row | column (first matches)
+2025,dataset name (CIC-Trap4Phish 2025)
+22.8,audit_duplicates.csv | Word | Duplicate_Pct; html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FN | Top_1_Weight
+98.45,FACT SHEET: Sen & Chowdhury Table I (prior PDF not uploaded; verify)
+8,[loose match; verify] html_errors_lime.csv | FP | Sample_ID; html_errors_lime.csv | FN | Predicted_Prob; html_errors_lime.csv | FN | Top_5_Weight
+"79,293","FACT SHEET: Sen & Chowdhury N (= 20,000+20,000+19,296+19,997; verify against PDF)"
+80,audit_shortcuts.csv | Excel/total_cells | Stump_F1; audit_shortcuts.csv | Excel/macro_max_line_length | Stump_Accuracy; audit_shortcuts.csv | Excel/macro_max_line_length | Stump_ROC_AUC
+20,[loose match; verify] html_errors_lime.csv | FN | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight
+"19,296",audit_duplicates.csv | PDF | Total_Rows; honest_leaderboard.csv | L0/PDF | Total_Rows; honest_leaderboard.csv | L1/PDF | Total_Rows
+3,audit_shortcuts.csv | Excel/hyperlink_count | Stump_F1; ensemble_comparison.csv | row4 | False_Positives; ensemble_comparison.csv | row5 | False_Positives
+-4,audit_shortcuts.csv | HTML/hex_encoding_rate | Stump_F1; ensemble_comparison.csv | row4 | False_Negatives; ensemble_comparison.csv | row5 | False_Negatives
+97.7,FACT SHEET: Ayodeji et al. (prior PDF not uploaded; verify)
+70,audit_shortcuts.csv | Excel/macro_max_arithmetic_ops | Stump_F1; audit_shortcuts.csv | HTML/script_entropy | Stump_F1; audit_shortcuts.csv | HTML/file_size | Stump_F1
+30,audit_duplicates.csv | PDF | Duplicate_Pct; html_errors_lime.csv | FN | Predicted_Prob; html_errors_lime.csv | FN | Predicted_Prob
+10,audit_shortcuts.csv | Excel/merged_cells_count | Stump_F1; audit_shortcuts.csv | HTML/entropy | Stump_F1; html_errors_lime.csv | FP | Top_4_Weight
+13,[loose match; verify] html_errors_lime.csv | FN | Top_3_Weight; html_errors_lime.csv | FP | Top_3_Weight; html_errors_lime.csv | FN | Top_2_Weight
+0.99,audit_duplicates.csv | Word | Near_Duplicate_Rate_Eps; audit_shortcuts.csv | Excel/entropy_of_text | Stump_Accuracy; audit_shortcuts.csv | Excel/entropy_of_text | Stump_F1
+42,[loose match; verify] arm4_shap_share.csv | L2/HTML | Other_Formats_Share; html_errors_lime.csv | FN | Predicted_Prob; html_errors_lime.csv | FN | Predicted_Prob
+95,[loose match; verify] ensemble_comparison.csv | row6 | Test_F1_CI_High; ensemble_comparison.csv | row7 | Test_F1_CI_High; hypotheses.csv | H2/Word and Excel contain >=1 feature with stump accuracy >= 0.95/SUPPORTED | Description
+"20,000",audit_duplicates.csv | Word | Total_Rows; audit_duplicates.csv | Excel | Total_Rows; honest_leaderboard.csv | L0/Word | Total_Rows
+43,[loose match; verify] html_errors_lime.csv | FN | Predicted_Prob; html_errors_lime.csv | FN | Predicted_Prob; shortcut_erosion_curve.csv | Word | Remaining_Features
+48,[loose match; verify] arm4_shap_share.csv | L1/HTML | Other_Formats_Share; audit_shortcuts.csv | Excel/macro_count_parentheses | Stump_F1; html_errors_lime.csv | FN | Predicted_Prob
+40,"audit_shortcuts.csv | Excel/formula_count | Stump_F1; lofo_matrix.csv | Excel/Word, PDF, HTML | Delta_F1; shortcut_erosion_curve.csv | Word | Remaining_Features"
+"19,997",audit_duplicates.csv | HTML | Total_Rows; honest_leaderboard.csv | L0/HTML | Total_Rows; honest_leaderboard.csv | L1/HTML | Total_Rows
+"10,000",audit_missingness.csv | Word/path__w_p | Null_Count; audit_missingness.csv | Word/path_w_r | Null_Count; audit_missingness.csv | Word/path__w_r | Null_Count
+022,year token from 2022 (USENIX/PDFMal2022); not a result
+5,audit_shortcuts.csv | Excel/has_macro | Stump_F1; audit_shortcuts.csv | Excel/macro_count | Stump_F1; html_errors_lime.csv | FN | Predicted_Prob
+0.95,ensemble_comparison.csv | row6 | Test_F1_CI_High; ensemble_comparison.csv | row7 | Test_F1_CI_High; hypotheses.csv | H2/Word and Excel contain >=1 feature with stump accuracy >= 0.95/SUPPORTED | Description
+1,[loose match; verify] arm4_shap_share.csv | L0/Word | Own_Format_Share; arm4_shap_share.csv | L0/Excel | Own_Format_Share; arm4_shap_share.csv | L0/PDF | Other_Formats_Share
+4.7,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0,[loose match; verify] arm4_shap_share.csv | L0/Word | Other_Formats_Share; arm4_shap_share.csv | L0/Excel | Other_Formats_Share; arm4_shap_share.csv | L0/PDF | Own_Format_Share
+3.2,version token (xgboost 3.2.0)
+1.7,version token (scikit-learn 1.7.2)
+2,audit_shortcuts.csv | Excel/protected_sheets_count | Stump_F1; audit_shortcuts.csv | Excel/uses_network_api | Stump_F1; audit_shortcuts.csv | Excel/macro_procedure_count | Stump_F1
+5.0,shortcut_erosion_curve.csv | Word | Num_Removed; shortcut_erosion_curve.csv | Excel | Num_Removed; shortcut_erosion_curve.csv | PDF | Num_Removed
+0.5,arm4_shap_share.csv | L0/PDF | Own_Format_Share; arm4_shap_share.csv | L0/PDF | Other_Formats_Share; arm4_shap_share.csv | L0/HTML | Own_Format_Share
+"4,6,8,10","list of k values (design choice), sensitivity_k.csv column k"
+6,audit_duplicates.csv | HTML | Conflict_Groups; html_errors_lime.csv | FP | Top_5_Weight; html_errors_lime.csv | FN | Top_4_Weight
+200,[loose match; verify] ensemble_comparison.csv | row2 | False_Positives; ensemble_comparison.csv | row3 | False_Positives; shortcut_erosion_curve.csv | Word | Num_Removed
+500,[loose match; verify] shortcut_erosion_curve.csv | Word | Num_Removed; shortcut_erosion_curve.csv | Excel | Num_Removed; shortcut_erosion_curve.csv | PDF | Num_Removed
+20.9,html_errors_lime.csv | FN | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FN | Top_1_Weight
+1.000,audit_provenance.csv | Word | Folder_Leakage_Accuracy; audit_provenance.csv | Word | Extension_Leakage_Accuracy; audit_provenance.csv | Excel | Folder_Leakage_Accuracy
+0.631,arm4_shap_share.csv | L0/Excel | Own_Format_Share; audit_provenance.csv | Excel | Extension_Leakage_Accuracy
+0.518,arm4_shap_share.csv | L1/HTML | Own_Format_Share; audit_provenance.csv | PDF | Extension_Leakage_Accuracy; audit_shortcuts.csv | PDF/embedded_file_count | Stump_Accuracy
+0.500,audit_missingness.csv | Word/path__w_p | Null_Pct; audit_missingness.csv | Word/path_w_r | Null_Pct; audit_missingness.csv | Word/path__w_r | Null_Pct
+22,[loose match; verify] html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FN | Top_1_Weight
+19,[loose match; verify] html_errors_lime.csv | FN | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight
+11,[loose match; verify] html_errors_lime.csv | FP | Top_3_Weight; html_errors_lime.csv | FN | Top_4_Weight; html_errors_lime.csv | FP | Top_4_Weight
+100,audit_provenance.csv | Word | Folder_Leakage_Accuracy; audit_provenance.csv | Word | Extension_Leakage_Accuracy; audit_provenance.csv | Excel | Folder_Leakage_Accuracy
+0.987,audit_shortcuts.csv | Excel/entropy_of_text | Stump_Accuracy; audit_shortcuts.csv | Excel/entropy_of_text | Stump_F1; audit_shortcuts.csv | Excel/entropy_of_text | Stump_ROC_AUC
+0.985,audit_shortcuts.csv | Excel/macro_chr_count | Stump_Accuracy; audit_shortcuts.csv | Excel/macro_chr_count | Stump_F1; audit_shortcuts.csv | Excel/macro_chr_count | Stump_ROC_AUC
+0.980,audit_shortcuts.csv | Excel/macro_token_count | Stump_Accuracy; audit_shortcuts.csv | Excel/macro_token_count | Stump_F1; audit_shortcuts.csv | Excel/macro_token_count | Stump_ROC_AUC
+0.975,audit_shortcuts.csv | Excel/macro_arithmetic_operator_count | Stump_Accuracy; audit_shortcuts.csv | Excel/macro_arithmetic_operator_count | Stump_F1; audit_shortcuts.csv | Excel/macro_arithmetic_operator_count | Stump_ROC_AUC
+0.929,audit_shortcuts.csv | PDF/text_length | Stump_Accuracy; audit_shortcuts.csv | PDF/object_count | Stump_F1; control_experiments.csv | row1 | Test_F1_CI_Low
+0.788,audit_shortcuts.csv | HTML/url_punct_char_count | Stump_Accuracy; audit_shortcuts.csv | HTML/url_punct_char_count | Stump_ROC_AUC; audit_shortcuts.csv | HTML/tag_count | Stump_F1
+41,[loose match; verify] html_errors_lime.csv | FN | Predicted_Prob; shortcut_erosion_curve.csv | Word | Remaining_Features; shortcut_erosion_curve.csv | Excel | Remaining_Features
+"4,558",audit_duplicates.csv | Word | Rows_In_Duplicate_Groups; audit_duplicates.csv | Word | Duplicate_Benign; honest_leaderboard.csv | L0/Word | Rows_In_Duplicate_Groups
+"6,591",audit_duplicates.csv | Excel | Rows_In_Duplicate_Groups; audit_duplicates.csv | Excel | Duplicate_Malicious; honest_leaderboard.csv | L0/Excel | Rows_In_Duplicate_Groups
+33.0,arm4_shap_share.csv | L1/Word | Other_Formats_Share; audit_duplicates.csv | Excel | Duplicate_Pct; shortcut_erosion_curve.csv | Word | Remaining_Features
+"5,703",audit_duplicates.csv | PDF | Rows_In_Duplicate_Groups; honest_leaderboard.csv | L0/PDF | Rows_In_Duplicate_Groups; honest_leaderboard.csv | L1/PDF | Rows_In_Duplicate_Groups
+29.6,audit_duplicates.csv | PDF | Duplicate_Pct; html_errors_lime.csv | FN | Predicted_Prob
+"5,683",audit_duplicates.csv | HTML | Rows_In_Duplicate_Groups; honest_leaderboard.csv | L0/HTML | Rows_In_Duplicate_Groups; honest_leaderboard.csv | L1/HTML | Rows_In_Duplicate_Groups
+28.4,audit_duplicates.csv | HTML | Duplicate_Pct; html_errors_lime.csv | FN | Top_1_Weight
+0.90,audit_shortcuts.csv | PDF/total_filters | Stump_F1; audit_shortcuts.csv | PDF/title_chars | Stump_Accuracy; audit_shortcuts.csv | PDF/title_chars | Stump_F1
+0.8896,shortcut_erosion_curve.csv | HTML | Test_F1
+0.8824,shortcut_erosion_curve.csv | PDF | Test_F1
+0.9979,ensemble_comparison.csv | row2 | Test_F1_CI_Low; ensemble_comparison.csv | row3 | Test_F1_CI_Low; honest_leaderboard.csv | L1/Excel | F1_Test_CI_95
+0.9997,honest_leaderboard.csv | L0/Excel | F1_CV_Mean_Std; honest_leaderboard.csv | L0/PDF | F1_Test_CI_95; honest_leaderboard.csv | L0/PDF | ROC-AUC
+0.9899,shortcut_erosion_curve.csv | Excel | Test_F1
+1.0000,audit_provenance.csv | Word | Folder_Leakage_Accuracy; audit_provenance.csv | Word | Extension_Leakage_Accuracy; audit_provenance.csv | Excel | Folder_Leakage_Accuracy
+0.9993,audit_shortcuts.csv | Word/entropy | Stump_Accuracy; audit_shortcuts.csv | Word/entropy | Stump_F1; audit_shortcuts.csv | Word/entropy | Stump_ROC_AUC
+0.9974,ensemble_comparison.csv | row4 | Recall; ensemble_comparison.csv | row5 | Recall; honest_leaderboard.csv | L1/PDF | Accuracy
+0.9955,audit_shortcuts.csv | Word/file_size | Stump_Accuracy; audit_shortcuts.csv | Word/file_size | Stump_F1; audit_shortcuts.csv | Word/file_size | Stump_ROC_AUC
+0.9989,honest_leaderboard.csv | L1/PDF | F1_Test_CI_95; honest_leaderboard.csv | L2/Excel | Accuracy; honest_leaderboard.csv | L2/Excel | F1
+0.9276,honest_leaderboard.csv | L1/HTML | Accuracy; honest_leaderboard.csv | L1/HTML | F1; honest_leaderboard.csv | L2/HTML | Accuracy
+0.9178,honest_leaderboard.csv | L1/HTML | F1_Test_CI_95; honest_leaderboard.csv | L2/HTML | F1_Test_CI_95
+0.9375,honest_leaderboard.csv | L1/HTML | F1_Test_CI_95; honest_leaderboard.csv | L2/HTML | F1_Test_CI_95
+0.9366,control_experiments.csv | row1 | F1; ensemble_comparison.csv | row6 | F1; honest_leaderboard.csv | L2/Word | F1
+0.9292,control_experiments.csv | row1 | Test_F1_CI_Low; honest_leaderboard.csv | L2/Word | F1_Test_CI_95
+0.9448,control_experiments.csv | row1 | Test_F1_CI_High; honest_leaderboard.csv | L2/Word | F1_Test_CI_95
+0.9977,audit_shortcuts.csv | Word/struct_PartName | Stump_Accuracy; audit_shortcuts.csv | Word/struct_PartName | Stump_F1; audit_shortcuts.csv | Word/struct_PartName | Stump_ROC_AUC
+0.9187,honest_leaderboard.csv | L0/HTML | F1; hypotheses.csv | H1/Dedup lowers test metrics in every format/NOT SUPPORTED | Evidence; paper_numbers.json | HTML_L0_F1
+0.9988,audit_shortcuts.csv | Word/struct_ContentType | Stump_Accuracy; audit_shortcuts.csv | Word/struct_ContentType | Stump_F1; audit_shortcuts.csv | Word/struct_ContentType | Stump_ROC_AUC
+0.9978,ensemble_comparison.csv | row4 | F1; ensemble_comparison.csv | row5 | F1; honest_leaderboard.csv | L0/PDF | F1_Test_CI_95
+0.9987,honest_leaderboard.csv | L0/PDF | Accuracy; l2_removed_features.csv | Word/struct_ContentType | Stump_Accuracy; l2_removed_features.csv | Word/struct_ContentType | Reason
+0.9985,ensemble_comparison.csv | row2 | Precision; ensemble_comparison.csv | row3 | Precision; honest_leaderboard.csv | L0/PDF | Precision
+0.9990,honest_leaderboard.csv | L0/PDF | Recall
+0.9096,honest_leaderboard.csv | L0/HTML | F1_Test_CI_95
+0.9272,honest_leaderboard.csv | L0/HTML | F1_Test_CI_95
+0.9175,honest_leaderboard.csv | L0/HTML | Accuracy
+0.9057,honest_leaderboard.csv | L0/HTML | Precision
+0.9320,honest_leaderboard.csv | L0/HTML | Recall
+0.9243,honest_leaderboard.csv | L1/HTML | Precision; honest_leaderboard.csv | L2/HTML | Precision
+0.9309,honest_leaderboard.csv | L1/HTML | Recall; honest_leaderboard.csv | L2/HTML | Recall
+0.9401,control_experiments.csv | row1 | Accuracy; honest_leaderboard.csv | L2/Word | Accuracy
+0.9859,control_experiments.csv | row1 | Precision; honest_leaderboard.csv | L2/Word | Precision
+0.8920,control_experiments.csv | row1 | Recall; honest_leaderboard.csv | L2/Word | Recall
+"1,083",audit_twin_leakage.csv | HTML/L0 | Twin_Count; twin_vs_nontwin.csv | HTML | Twin_Count
+0.9741,audit_shortcuts.csv | Excel/string_cell_count | Stump_F1; twin_vs_nontwin.csv | HTML | Twin_Accuracy
+0.9860,twin_vs_nontwin.csv | HTML | Twin_F1
+0.9804,twin_vs_nontwin.csv | HTML | Twin_F1_CI_Low
+0.9909,twin_vs_nontwin.csv | HTML | Twin_F1_CI_High
+"2,917",twin_vs_nontwin.csv | HTML | NonTwin_Count
+0.9009,twin_vs_nontwin.csv | HTML | NonTwin_Accuracy
+0.8566,twin_vs_nontwin.csv | HTML | NonTwin_F1
+0.8402,twin_vs_nontwin.csv | HTML | NonTwin_F1_CI_Low
+0.8731,twin_vs_nontwin.csv | HTML | NonTwin_F1_CI_High
+0.9982,honest_leaderboard.csv | L1/PDF | F1_CV_Mean_Std; honest_leaderboard.csv | L2/PDF | F1_CV_Mean_Std; twin_vs_nontwin.csv | PDF | NonTwin_Accuracy
+"3,683",DERIVED: 0.974146*1083 + 0.900926*2917 from twin_vs_nontwin.csv
+"4,000",audit_twin_leakage.csv | Word/L0 | Test_Rows; audit_twin_leakage.csv | Excel/L0 | Test_Rows; audit_twin_leakage.csv | HTML/L0 | Test_Rows
+0.921,"DERIVED: 3,683/4,000 from twin_vs_nontwin.csv"
+834,audit_twin_leakage.csv | Word/L0 | Twin_Count; twin_vs_nontwin.csv | Word | Twin_Count
+"3,166",twin_vs_nontwin.csv | Word | NonTwin_Count
+"1,314",audit_twin_leakage.csv | Excel/L0 | Twin_Count; twin_vs_nontwin.csv | Excel | Twin_Count
+"2,686",twin_vs_nontwin.csv | Excel | NonTwin_Count
+"1,074",audit_twin_leakage.csv | PDF/L0 | Twin_Count; twin_vs_nontwin.csv | PDF | Twin_Count
+"2,786",html_errors_lime.csv | FP | Sample_ID; twin_vs_nontwin.csv | PDF | NonTwin_Count
+0.9973,twin_vs_nontwin.csv | PDF | NonTwin_F1
+0.9947,twin_vs_nontwin.csv | PDF | NonTwin_F1_CI_Low
+0.9995,twin_vs_nontwin.csv | PDF | NonTwin_F1_CI_High
+21,audit_twin_leakage.csv | Word/L0 | Twin_Rate; control_experiments.csv | row1 | False_Positives; html_errors_lime.csv | FN | Top_1_Weight
+178,[loose match; verify] control_experiments.csv | row1 | False_Negatives; html_errors_lime.csv | FN | Sample_ID
+"3,321",DERIVED: TN+FP+FN+TP in control_experiments.csv (Word row)
+"2,795",DERIVED: TN+FP+FN+TP in control_experiments.csv (Excel row)
+26,audit_shortcuts.csv | PDF/has_multiple_behavioral_keywords_in_one_object | Stump_F1; audit_shortcuts.csv | PDF/javascript_count | Stump_F1; audit_shortcuts.csv | PDF/js_count | Stump_F1
+-0.0007,sensitivity_k.csv | Excel/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1; sensitivity_k.csv | Excel/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1; sensitivity_k.csv | Excel/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1
+-0.0019,sensitivity_k.csv | Excel/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low; sensitivity_k.csv | Excel/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low; sensitivity_k.csv | Excel/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0000,audit_duplicates.csv | Word | Duplicate_Malicious; audit_duplicates.csv | Word | Conflict_Groups; audit_duplicates.csv | Excel | Duplicate_Benign
+-0.0015,transfer_gap_significance.csv | Excel/Pooled (Arm 2 Cross-Format Model) | CI_Low; transfer_gap_significance.csv | Excel/Pooled (Arm 2 Cross-Format Model) | CI_High
+0.0116,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1
+0.0038,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1
+0.0025,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1
+0.0093,transfer_gap_significance.csv | PDF/Pooled (Arm 2 Cross-Format Model) | Delta_F1
+0.0059,transfer_gap_significance.csv | PDF/Pooled (Arm 2 Cross-Format Model) | CI_Low
+0.0131,hypotheses.csv | H4/Universal pooled F1 within 0.01 for Word/Excel/PDF but not HTML/INCONCLUSIVE | Evidence; transfer_gap_significance.csv | PDF/Pooled (Arm 2 Cross-Format Model) | CI_High
+1.8,mantissa of 1.8e-4 = transfer_gap_significance.csv p_value_adjusted (PDF) 0.000184
+0.0731,html_errors_lime.csv | FP | Top_4_Weight; hypotheses.csv | H4/Universal pooled F1 within 0.01 for Word/Excel/PDF but not HTML/INCONCLUSIVE | Evidence; transfer_gap_significance.csv | HTML/Pooled (Arm 2 Cross-Format Model) | Delta_F1
+0.0605,transfer_gap_significance.csv | HTML/Pooled (Arm 2 Cross-Format Model) | CI_Low
+0.0853,html_errors_lime.csv | FP | Top_5_Weight; transfer_gap_significance.csv | HTML/Pooled (Arm 2 Cross-Format Model) | CI_High
+12.2,html_errors_lime.csv | FP | Top_2_Weight; html_errors_lime.csv | FN | Top_2_Weight; html_errors_lime.csv | FN | Top_4_Weight
+0.0696,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1; paper_numbers.json | HTML_Transfer_Gap_k4
+0.0601,html_errors_lime.csv | FP | Top_5_Weight; sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0854,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.0384,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1; paper_numbers.json | HTML_Transfer_Gap_k10
+0.0307,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0533,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+-0.004995,hypotheses.csv | H5/HTML gap shrinks as k grows/SUPPORTED | Evidence
+7,[loose match; verify] html_errors_lime.csv | FN | Top_5_Weight; html_errors_lime.csv | FP | Top_4_Weight; html_errors_lime.csv | FP | Top_5_Weight
+9,[loose match; verify] html_errors_lime.csv | FP | Top_5_Weight; html_errors_lime.csv | FN | Top_4_Weight; html_errors_lime.csv | FN | Top_4_Weight
+0.1578,html_errors_lime.csv | FN | Top_2_Weight; sensitivity_k.csv | Word (No Shortcuts)/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1
+0.1432,sensitivity_k.csv | Word (No Shortcuts)/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.1746,sensitivity_k.csv | Word (No Shortcuts)/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.3047,DERIVED/USER CHECK: stage4_stats.py Word pooled Universal_F1 0.304747 (1-0.6319 not used); specialist 0.936604 = L2 row
+0.6319,hypotheses.csv | H4/Universal pooled F1 within 0.01 for Word/Excel/PDF but not HTML/INCONCLUSIVE | Evidence; transfer_gap_significance.csv | Word/Pooled (Arm 2 Cross-Format Model) | Delta_F1
+0.6085,transfer_gap_significance.csv | Word/Pooled (Arm 2 Cross-Format Model) | CI_Low
+0.6540,html_errors_lime.csv | FP | Predicted_Prob; transfer_gap_significance.csv | Word/Pooled (Arm 2 Cross-Format Model) | CI_High
+0.91,audit_duplicates.csv | PDF | Near_Duplicate_Rate_Eps; audit_shortcuts.csv | PDF/metadata_size | Stump_Accuracy; audit_shortcuts.csv | PDF/metadata_size | Stump_F1
+0.659,html_errors_lime.csv | FP | Predicted_Prob; transfer_gap_significance.csv | Word/Pooled (Arm 2 Cross-Format Model) | p_value_adjusted; transfer_gap_significance.csv | Excel/Pooled (Arm 2 Cross-Format Model) | p_value_adjusted
+0.0079,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0159,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.0013,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0065,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+-0.0006,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0045,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.0003,honest_leaderboard.csv | L2/Excel | F1_CV_Mean_Std; sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0051,sensitivity_k.csv | PDF/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.0553,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1; paper_numbers.json | HTML_Transfer_Gap_k6
+0.0469,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0707,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.0490,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | Delta_F1; paper_numbers.json | HTML_Transfer_Gap_k8
+0.0410,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.0631,sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_High
+0.670,arm4_shap_share.csv | L1/Word | Own_Format_Share; audit_shortcuts.csv | HTML/suspicious_word_count | Stump_F1; hypotheses.csv | H6/Arm 4 own-format columns carry >= 50% of feature importance/NOT SUPPORTED | Evidence
+0.621,arm4_shap_share.csv | L1/Excel | Own_Format_Share; hypotheses.csv | H6/Arm 4 own-format columns carry >= 50% of feature importance/NOT SUPPORTED | Evidence
+0.486,arm4_shap_share.csv | L1/PDF | Own_Format_Share; hypotheses.csv | H6/Arm 4 own-format columns carry >= 50% of feature importance/NOT SUPPORTED | Evidence
+33,[loose match; verify] arm4_shap_share.csv | L1/Word | Other_Formats_Share; audit_duplicates.csv | Excel | Duplicate_Pct; audit_twin_leakage.csv | Excel/L0 | Twin_Rate
+-51,[loose match; verify] arm4_shap_share.csv | L0/PDF | Other_Formats_Share; arm4_shap_share.csv | L1/PDF | Other_Formats_Share; audit_shortcuts.csv | Excel/has_macro | Stump_Accuracy
+0.130,html_errors_lime.csv | FP | Top_2_Weight; html_errors_lime.csv | FN | Top_3_Weight; html_errors_lime.csv | FN | Top_4_Weight
+0.722,"lofo_matrix.csv | Excel/Word, PDF, HTML | LOFO_Accuracy"
+0.229,html_errors_lime.csv | FN | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight; html_errors_lime.csv | FP | Top_1_Weight
+0.665,"audit_shortcuts.csv | HTML/redirect_mechanism_count | Stump_F1; audit_shortcuts.csv | HTML/form_count | Stump_F1; lofo_matrix.csv | Word/Excel, PDF, HTML | LOFO_F1"
+0.276,"html_errors_lime.csv | FN | Top_1_Weight; html_errors_lime.csv | FN | Top_1_Weight; lofo_matrix.csv | HTML/Word, Excel, PDF | Delta_F1"
+0.769,"lofo_matrix.csv | PDF/Word, Excel, HTML | Delta_F1"
+0.9282,ensemble_comparison.csv | row6 | Test_F1_CI_Low
+0.9453,ensemble_comparison.csv | row6 | Test_F1_CI_High
+0.9384,ensemble_comparison.csv | row7 | F1
+0.9298,ensemble_comparison.csv | row7 | Test_F1_CI_Low
+0.9467,ensemble_comparison.csv | row7 | Test_F1_CI_High
+223,[loose match; verify] html_error_analysis.md | text
+117,[loose match; verify] html_error_analysis.md | text
+106,[loose match; verify] html_error_analysis.md | text
+216,DERIVED: html_errors_lime.csv Top_1_Feature==mailto_link_count (112 FP + 104 FN; html_error_analysis.md)
+112,[loose match; verify] html_error_analysis.md | text
+104,[loose match; verify] html_error_analysis.md | text
+0.884,html_errors_lime.csv | FP | Predicted_Prob; html_error_analysis.md | text
+0.01,audit_shortcuts.csv | Excel/macro_comment_lines | Stump_F1; honest_leaderboard.csv | L1/HTML | F1_CV_Mean_Std; honest_leaderboard.csv | L2/HTML | F1_CV_Mean_Std
+0.1,audit_shortcuts.csv | Excel/rich_text_formatting_count | Stump_F1; audit_shortcuts.csv | Excel/macro_string_function_count | Stump_F1; audit_shortcuts.csv | Excel/merged_cells_count | Stump_F1
+-999,stage0_audit.py NaN imputation value (USER CHECK)
+0.857,twin_vs_nontwin.csv | HTML | NonTwin_F1
+0.986,audit_shortcuts.csv | Word/struct__http___schemas_openxmlformats_org_wordprocessingml_2006_main_sz | Stump_Accuracy; audit_shortcuts.csv | Word/struct__http___schemas_openxmlformats_org_wordprocessingml_2006_main_sz | Stump_ROC_AUC; control_experiments.csv | row1 | Precision
+0.937,control_experiments.csv | row1 | F1; ensemble_comparison.csv | row6 | Accuracy; ensemble_comparison.csv | row6 | F1
+0.945,control_experiments.csv | row1 | ROC-AUC; control_experiments.csv | row1 | Test_F1_CI_High; ensemble_comparison.csv | row6 | Test_F1_CI_High
+0.073,html_errors_lime.csv | FP | Top_4_Weight; html_errors_lime.csv | FN | Top_4_Weight; hypotheses.csv | H4/Universal pooled F1 within 0.01 for Word/Excel/PDF but not HTML/INCONCLUSIVE | Evidence
+0.060,html_errors_lime.csv | FP | Top_5_Weight; html_errors_lime.csv | FN | Top_5_Weight; sensitivity_k.csv | HTML/Per-Format (Arm 2 Feature Subset Adapter) | CI_Low
+0.085,html_errors_lime.csv | FN | Top_4_Weight; html_errors_lime.csv | FP | Top_4_Weight; html_errors_lime.csv | FP | Top_5_Weight
+"1,788",DERIVED: manifest.json Run_End_Time_Epoch - Run_Start_Time_Epoch = 1788.27 s

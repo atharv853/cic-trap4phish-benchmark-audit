@@ -1,0 +1,3 @@
+paper,year,format,model,reported_accuracy,setup_notes
+prior_work_1,2024,Word,RandomForest,0.999,naive split
+prior_work_2,2025,HTML,LightGBM,0.933,L0 raw dataset

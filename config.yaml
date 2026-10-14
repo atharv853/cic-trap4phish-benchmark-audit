@@ -1,0 +1,38 @@
+# ==============================================================================
+# Configuration: CIC-Trap4Phish Benchmark Audit
+# ==============================================================================
+seed: 42
+
+# Directory Structure (relative to repository root)
+dirs:
+  scripts: "scripts"
+  results: "results"
+  figures: "figures"
+  tables: "tables"
+  latex: "latex_tables"
+  logs: "logs"
+  data: "data"
+  sample_data: "data/sample"
+
+# Official Raw Feature Files (place in data/ or root)
+data_files:
+  Word: "Word_All_features.csv"
+  Excel: "Excel_All_Features.csv"
+  PDF: "PDF_All_features.csv"
+  HTML: "HTML_All_Features.csv"
+
+# Lightweight Sample Files for Smoke Tests
+sample_data_files:
+  Word: "Word_Sample.csv"
+  Excel: "Excel_Sample.csv"
+  PDF: "PDF_Sample.csv"
+  HTML: "HTML_Sample.csv"
+
+# Hyperparameter Optimization & Evaluation Parameters
+optuna_trials: 8
+inner_cv_folds: 3
+repeated_cv_runs: 5
+repeated_cv_folds: 5
+bootstrap_resamples: 2000
+stump_shortcut_threshold: 0.95
+feature_budgets: [4, 6, 8, 10]
